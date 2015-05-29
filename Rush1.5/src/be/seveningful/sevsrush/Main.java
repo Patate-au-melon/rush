@@ -121,9 +121,7 @@ public class Main extends JavaPlugin {
 					p.sendMessage(CommandMessages.teamSpawnMessage());
 				}
 				return true;
-			} else if (args[0].equalsIgnoreCase("stop"))
-
-			{
+			} else if (args[0].equalsIgnoreCase("stop")){
 				if (p.isOp()) {
 					Bukkit.broadcastMessage(Prefix.getPrefix() + ChatColor.RED
 							+ " Le jeu a été arrêté par un administarteur !");
