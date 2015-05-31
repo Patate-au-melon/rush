@@ -1,9 +1,0 @@
-name: SevsRush
-main: be.seveningful.sevsrush.Main
-version: 0.1
-author: Seveningful
-description: Plugin pour un rush
-commands: 
-    rush:
-        usage: /rush
-        description: /rush <arguments>
